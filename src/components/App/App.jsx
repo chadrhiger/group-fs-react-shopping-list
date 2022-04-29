@@ -18,6 +18,7 @@ function App() {
             url: '/list'
         }).then ( (response) => {
             console.log('get request is working');
+            console.log(response);
         }).catch ( (err) => {
             console.log('something wrong with get app.jsx', err);
         })
